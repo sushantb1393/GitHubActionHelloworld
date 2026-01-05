@@ -15,5 +15,5 @@ on:
    uses: actions/checkout@v4
 
 
-     name: Print Hello
+     - name: Print Hello
      run: echo "Hello , Github Actions !"

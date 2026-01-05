@@ -10,8 +10,10 @@ on:
    build:
     runs-on: ubuntu latest
     steps:
-     name: checkout code
-     uses: action/checkout@v3
+     steps:
+   name: Checkout code
+   uses: actions/checkout@v4
+
 
      name: Print Hello
      run: echo "Hello , Github Actions !"
